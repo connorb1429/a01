@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Connor's Website</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+  </head>
+
+  <body background:"background.jpg>
+
+    <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
+      <a class="navbar-brand" href="index.html">Connor's Website</a>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item selected">
+            <a class="nav-link" href="calculation.html">Calculation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="jumbotron">
+        <div class="header">
+          <h3 id="calctitle">Number of days between dates</h3>
+        </div>
+        <br>
+        <p class="lead">Enter the two dates below and I will tell you the amount of days between them</p>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-sm-6">
+                First Date: <input type="text" name="fname"><br>
+            </div>
+            <div class="col-sm-6">
+                Second Date: <input type="text" name="fname"><br>
+            </div>
+        </div>
+        <br>
+        <div>
+            <button class="btn btn-large btn-block btn-primary" type="button">Get number of days.</button>
+        </div>
+        <br>
+        <br>
+        <div id="output">
+           <p class="lead">Number of days updates this label</p>
+        </div>
+      </div>
+    </div>
+
+   
+
+    <footer>
+      <div id="footer" class="footer navbar-fixed-bottom">
+        <p>Test Footer, Created 1/27/2017</p>
+      </div>
+    </footer>
+  </body>
+</html>
